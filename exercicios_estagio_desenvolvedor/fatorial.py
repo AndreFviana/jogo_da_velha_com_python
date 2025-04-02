@@ -60,4 +60,5 @@ print(f"fatorial de {numeros[0]} é {resultado}")
 a
 b
 c
+d
 
