@@ -1,5 +1,5 @@
 import math
-
+"""
 #calculando fatorial
 def fatorial(n):
     resultado= 1
@@ -8,6 +8,7 @@ def fatorial(n):
     return resultado
 num = int(input("digite um numero: "))
 print(f"o fatorial de {num} é {fatorial(num)}")
+"""
 """
 #versão sem o return
 def fatorial(n):
@@ -31,7 +32,7 @@ n=3
 resultado =fatorial(n)
 print(f"fatorial de:{n} é {fatorial(n)} ")"
 """
-
+"""
 #fatorial com listas
 def lista_fatorial(lista):
     fatorias = []
@@ -57,3 +58,10 @@ resultado = fat(n)
 numeros = list(map(int,input("digite um numero: ").split()))
 print(f"fatorial de {numeros[0]} é {resultado}")
 a
+<<<<<<< HEAD
+=======
+b
+c
+d
+
+>>>>>>> teste_1
