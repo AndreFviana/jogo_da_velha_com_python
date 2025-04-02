@@ -59,3 +59,5 @@ numeros = list(map(int,input("digite um numero: ").split()))
 print(f"fatorial de {numeros[0]} é {resultado}")
 a
 b
+c
+
