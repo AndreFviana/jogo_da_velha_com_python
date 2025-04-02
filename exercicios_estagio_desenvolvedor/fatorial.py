@@ -45,3 +45,15 @@ nms = list(map(int,cpf_input.split()))
 print(nms)
 resultado = lista_fatorial(nms)
 print(f"o fatorial de {', '.join(map(str, nms))} é {', '.join(map(str,resultado))}")
+"""
+
+def fat(n):
+    resultado = 1
+    for i in range(n,0,-1):
+        resultado *= i
+        return 
+    print(f"o fatorial de {n} é {resultado}")
+resultado = fat(n)
+numeros = list(map(int,input("digite um numero: ").split()))
+print(f"fatorial de {numeros[0]} é {resultado}")
+a
